@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:58:26" hostname="TRUNGNQs-MacBook-Air.local" time="1.43">
+  <properties/>
+  <testcase name="testFindByPrincipal" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="1.154"/>
+  <testcase name="testAddEventWithWebAuthenticationDetails" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.024"/>
+  <testcase name="testAddEventWithNullData" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.023"/>
+  <testcase name="addAuditEventTruncateLargeData" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.03"/>
+  <testcase name="addAuditEventWithAuthorizationFailureType" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.013"/>
+  <testcase name="findByPrincipalAndType" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.04"/>
+  <testcase name="addAuditEventWithAnonymousUser" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.018"/>
+  <testcase name="testFindAfter" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.026"/>
+  <testcase name="testFindByPrincipalIsNullAndAfterIsNull" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.024"/>
+  <testcase name="testFindByPrincipalNotNullAndAfterIsNull" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.025"/>
+  <testcase name="addAuditEvent" classname="com.jobg.backend.repository.CustomAuditEventRepositoryIntTest" time="0.032"/>
+  <system-out><![CDATA[
+        ??? ???   ??? ????????? ????????   ??????? ????????? ????????? ????????
+        ??? ???   ??? ????????? ????????? ???????? ????????? ????????? ?????????
+        ??? ?????????    ???    ????????? ???????     ???    ???????   ?????????
+  ???   ??? ?????????    ???    ????????   ???????    ???    ???????   ????????
+  ????????? ???   ??? ????????? ???       ????????    ???    ????????? ???  ????
+   ???????  ???   ??? ????????? ???       ???????     ???    ????????? ???   ???
+
+:: JHipster ?  :: Running Spring Boot 1.5.7.RELEASE ::
+:: http://www.jhipster.tech ::
+
+2018-01-06 17:57:49.323  INFO 32460 --- [    Test worker] .j.b.r.CustomAuditEventRepositoryIntTest : Starting CustomAuditEventRepositoryIntTest on TRUNGNQs-MacBook-Air.local with PID 32460 (started by trungnq in /Users/trungnq/Documents/workspace/research_project/jobg/jobg-backend)
+2018-01-06 17:57:49.333  INFO 32460 --- [    Test worker] .j.b.r.CustomAuditEventRepositoryIntTest : No active profile set, falling back to default profiles: default
+2018-01-06 17:57:57.878  INFO 32460 --- [    Test worker] c.j.backend.config.MetricsConfiguration  : Initializing Metrics Log reporting
+2018-01-06 17:58:08.540  WARN 32460 --- [    Test worker] org.elasticsearch.env                    : [Skin] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2018-01-06 17:58:14.944  INFO 32460 --- [    Test worker] c.j.backend.config.LoggingConfiguration  : Initializing Logstash logging
+2018-01-06 17:58:15.218  INFO 32460 --- [    Test worker] c.j.backend.config.LoggingConfiguration  : Filtering metrics logs from all appenders except the LOGSTASH appender
+2018-01-06 17:58:21.174 ERROR 32460 --- [    Test worker] c.j.b.config.social.SocialConfiguration  : Cannot configure GoogleConnectionFactory id or secret null
+2018-01-06 17:58:21.187 ERROR 32460 --- [    Test worker] c.j.b.config.social.SocialConfiguration  : Cannot configure FacebookConnectionFactory id or secret null
+2018-01-06 17:58:21.193 ERROR 32460 --- [    Test worker] c.j.b.config.social.SocialConfiguration  : Cannot configure TwitterConnectionFactory id or secret null
+2018-01-06 17:58:26.506  INFO 32460 --- [    Test worker] .j.b.r.CustomAuditEventRepositoryIntTest : Started CustomAuditEventRepositoryIntTest in 41.954 seconds (JVM running for 45.685)
+2018-01-06 17:58:27.797  WARN 32460 --- [    Test worker] c.j.b.r.CustomAuditEventRepository       : Event data for test-key too long (265) has been truncated to 255. Consider increasing column width.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

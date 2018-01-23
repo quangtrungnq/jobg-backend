@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.service.SocialServiceIntTest" tests="14" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:59:08" hostname="TRUNGNQs-MacBook-Air.local" time="2.023">
+  <properties/>
+  <testcase name="testCreateSocialUserShouldThrowExceptionIfConnectionHasNoEmailAndLoginAlreadyExist" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.148"/>
+  <testcase name="testCreateSocialUserShouldCreateUserWithSocialInformation" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.161"/>
+  <testcase name="testCreateSocialUserShouldCreateActivatedUserWithRoleUserAndPassword" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.169"/>
+  <testcase name="testCreateSocialUserShouldCreateUserWithExactLangKey" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.158"/>
+  <testcase name="testCreateSocialUserShouldCreateUserWithLoginSameAsEmailIfNotTwitter" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.199"/>
+  <testcase name="testCreateSocialUserShouldSendRegistrationValidationEmail" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.202"/>
+  <testcase name="testCreateSocialUserShouldCreateUserWithSocialLoginWhenIsTwitter" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.172"/>
+  <testcase name="testCreateSocialUserShouldCreateSocialConnection" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.161"/>
+  <testcase name="testDeleteUserSocialConnection" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.16"/>
+  <testcase name="testCreateSocialUserShouldNotCreateUserIfEmailAlreadyExist" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.143"/>
+  <testcase name="testCreateSocialUserShouldThrowExceptionIfConnectionIsNull" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.009"/>
+  <testcase name="testCreateSocialUserShouldThrowExceptionIfConnectionHasNoEmailAndNoLogin" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.009"/>
+  <testcase name="testCreateSocialUserShouldNotChangeUserIfEmailAlreadyExist" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.136"/>
+  <testcase name="testCreateSocialUserShouldCreateUserIfNotExist" classname="com.jobg.backend.service.SocialServiceIntTest" time="0.171"/>
+  <system-out><![CDATA[2018-01-06 17:59:08.750 ERROR 32460 --- [    Test worker] com.jobg.backend.service.SocialService   : Cannot create social user because email is null and login already exist, login -> @login
+2018-01-06 17:59:10.287  INFO 32460 --- [    Test worker] com.jobg.backend.service.SocialService   : User already exist associate the connection to this account
+2018-01-06 17:59:10.304 ERROR 32460 --- [    Test worker] com.jobg.backend.service.SocialService   : Cannot create social user because connection is null
+2018-01-06 17:59:10.316 ERROR 32460 --- [    Test worker] com.jobg.backend.service.SocialService   : Cannot create social user because email and login are null
+2018-01-06 17:59:10.449  INFO 32460 --- [    Test worker] com.jobg.backend.service.SocialService   : User already exist associate the connection to this account
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

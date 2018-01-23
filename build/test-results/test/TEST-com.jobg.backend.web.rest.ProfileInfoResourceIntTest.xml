@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.web.rest.ProfileInfoResourceIntTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:58:39" hostname="TRUNGNQs-MacBook-Air.local" time="0.2">
+  <properties/>
+  <testcase name="getProfileInfoWithoutActiveProfiles" classname="com.jobg.backend.web.rest.ProfileInfoResourceIntTest" time="0.069"/>
+  <testcase name="getProfileInfoWithoutRibbon" classname="com.jobg.backend.web.rest.ProfileInfoResourceIntTest" time="0.058"/>
+  <testcase name="getProfileInfoWithRibbon" classname="com.jobg.backend.web.rest.ProfileInfoResourceIntTest" time="0.069"/>
+  <system-out><![CDATA[2018-01-06 17:58:39.637  WARN 32460 --- [jobg-Executor-1] com.jobg.backend.service.MailService     : Email could not be sent to user 'johndoe@localhost': Mail server connection failed; nested exception is com.sun.mail.util.MailConnectException: Couldn't connect to host, port: localhost, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection refused (Connection refused). Failed messages: com.sun.mail.util.MailConnectException: Couldn't connect to host, port: localhost, 25; timeout -1;
+  nested exception is:
+	java.net.ConnectException: Connection refused (Connection refused)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.security.SecurityUtilsUnitTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:58:30" hostname="TRUNGNQs-MacBook-Air.local" time="0.015">
+  <properties/>
+  <testcase name="testIsCurrentUserInRole" classname="com.jobg.backend.security.SecurityUtilsUnitTest" time="0.005"/>
+  <testcase name="testIsAuthenticated" classname="com.jobg.backend.security.SecurityUtilsUnitTest" time="0.001"/>
+  <testcase name="testgetCurrentUserJWT" classname="com.jobg.backend.security.SecurityUtilsUnitTest" time="0.001"/>
+  <testcase name="testgetCurrentUserLogin" classname="com.jobg.backend.security.SecurityUtilsUnitTest" time="0.001"/>
+  <testcase name="testAnonymousIsNotAuthenticated" classname="com.jobg.backend.security.SecurityUtilsUnitTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

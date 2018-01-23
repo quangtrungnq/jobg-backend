@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.service.MailServiceIntTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:59:08" hostname="TRUNGNQs-MacBook-Air.local" time="0.23">
+  <properties/>
+  <testcase name="testSendPasswordResetMail" classname="com.jobg.backend.service.MailServiceIntTest" time="0.046"/>
+  <testcase name="testCreationEmail" classname="com.jobg.backend.service.MailServiceIntTest" time="0.024"/>
+  <testcase name="testSendEmailWithException" classname="com.jobg.backend.service.MailServiceIntTest" time="0.014"/>
+  <testcase name="testSendHtmlEmail" classname="com.jobg.backend.service.MailServiceIntTest" time="0.009"/>
+  <testcase name="testSendMultipartHtmlEmail" classname="com.jobg.backend.service.MailServiceIntTest" time="0.051"/>
+  <testcase name="testSendEmail" classname="com.jobg.backend.service.MailServiceIntTest" time="0.011"/>
+  <testcase name="testSendMultipartEmail" classname="com.jobg.backend.service.MailServiceIntTest" time="0.012"/>
+  <testcase name="testSendActivationEmail" classname="com.jobg.backend.service.MailServiceIntTest" time="0.019"/>
+  <testcase name="testSendEmailFromTemplate" classname="com.jobg.backend.service.MailServiceIntTest" time="0.014"/>
+  <system-out><![CDATA[2018-01-06 17:59:08.413  WARN 32460 --- [    Test worker] com.jobg.backend.service.MailService     : Email could not be sent to user 'john.doe@example.com': null
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

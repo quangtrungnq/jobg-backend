@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.config.WebConfigurerTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:58:29" hostname="TRUNGNQs-MacBook-Air.local" time="0.877">
+  <properties/>
+  <testcase name="testCorsFilterOnOtherPath" classname="com.jobg.backend.config.WebConfigurerTest" time="0.626"/>
+  <testcase name="testCorsFilterDeactivated" classname="com.jobg.backend.config.WebConfigurerTest" time="0.029"/>
+  <testcase name="testStartUpProdServletContext" classname="com.jobg.backend.config.WebConfigurerTest" time="0.091"/>
+  <testcase name="testUndertowHttp2Enabled" classname="com.jobg.backend.config.WebConfigurerTest" time="0.033"/>
+  <testcase name="testCorsFilterOnApiPath" classname="com.jobg.backend.config.WebConfigurerTest" time="0.049"/>
+  <testcase name="testStartUpDevServletContext" classname="com.jobg.backend.config.WebConfigurerTest" time="0.007"/>
+  <testcase name="testCorsFilterDeactivated2" classname="com.jobg.backend.config.WebConfigurerTest" time="0.034"/>
+  <testcase name="testCustomizeServletContainer" classname="com.jobg.backend.config.WebConfigurerTest" time="0.003"/>
+  <system-out><![CDATA[2018-01-06 17:58:29.657  INFO 32460 --- [    Test worker] com.jobg.backend.config.WebConfigurer    : Web application configuration, using profiles: prod
+2018-01-06 17:58:29.730  INFO 32460 --- [    Test worker] com.jobg.backend.config.WebConfigurer    : Web application fully configured
+2018-01-06 17:58:29.832  INFO 32460 --- [    Test worker] com.jobg.backend.config.WebConfigurer    : Web application configuration, using profiles: dev
+2018-01-06 17:58:29.835  INFO 32460 --- [    Test worker] com.jobg.backend.config.WebConfigurer    : Web application fully configured
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

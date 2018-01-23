@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" tests="31" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:58:28" hostname="TRUNGNQs-MacBook-Air.local" time="0.898">
+  <properties/>
+  <testcase name="findConnectionByApiToUserNoSuchConnection" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.045"/>
+  <testcase name="findUserIdWithConnection" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.047"/>
+  <testcase name="updateConnectionAccessFields" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.072"/>
+  <testcase name="findAllConnectionsEmptyResult" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.027"/>
+  <testcase name="findPrimaryConnection_afterRemove" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.042"/>
+  <testcase name="findConnectionsByProviderId" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.021"/>
+  <testcase name="findPrimaryConnectionNotConnected" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.013"/>
+  <testcase name="addConnection" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.027"/>
+  <testcase name="findConnectionsByApi" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.023"/>
+  <testcase name="findConnectionsToUsersEmptyResult" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.031"/>
+  <testcase name="removeConnections" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.026"/>
+  <testcase name="findConnectionsToUsers" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.041"/>
+  <testcase name="noSuchConnectionFactory" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.017"/>
+  <testcase name="findUserIdsConnectedTo" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.029"/>
+  <testcase name="findUserIdWithConnectionNoSuchConnection" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.013"/>
+  <testcase name="findPrimaryConnectionSelectFromMultipleByRank" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.03"/>
+  <testcase name="removeConnection" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.017"/>
+  <testcase name="findConnectionsByProviderIdEmptyResult" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.012"/>
+  <testcase name="findConnectionByKeyNoSuchConnection" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.019"/>
+  <testcase name="findUserIdWithConnectionMultipleConnectionsToSameProviderUser" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.038"/>
+  <testcase name="findConnectionByKey" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.016"/>
+  <testcase name="findConnectionsToUsersEmptyInput" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.012"/>
+  <testcase name="addConnectionDuplicate" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.066"/>
+  <testcase name="findPrimaryConnection" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.014"/>
+  <testcase name="findConnectionsByApiEmptyResult" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.012"/>
+  <testcase name="removeConnectionsToProviderNoOp" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.012"/>
+  <testcase name="findConnectionByApiToUser" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.022"/>
+  <testcase name="findAllConnectionsMultipleConnectionResults" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.034"/>
+  <testcase name="updateConnectionProfileFields" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.023"/>
+  <testcase name="findAllConnections" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.019"/>
+  <testcase name="removeConnectionNoOp" classname="com.jobg.backend.repository.CustomSocialUsersConnectionRepositoryIntTest" time="0.017"/>
+  <system-out><![CDATA[2018-01-06 17:58:28.762  WARN 32460 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2018-01-06 17:58:28.788 ERROR 32460 --- [    Test worker] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "CONSTRAINT_INDEX_D ON PUBLIC._SOCIAL_USER_CONNECTION(USER_ID, PROVIDER_ID, PROVIDER_USER_ID) VALUES ('1', 'facebook', '9', 23)"; SQL statement:
+insert into _social_user_connection (id, access_token, display_name, expire_time, image_url, profile_url, provider_id, provider_user_id, rank, refresh_token, secret, user_id) values (null, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?) [23505-196]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

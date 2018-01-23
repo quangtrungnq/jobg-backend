@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.web.rest.UserJWTControllerIntTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:59:06" hostname="TRUNGNQs-MacBook-Air.local" time="1.058">
+  <properties/>
+  <testcase name="testAuthorizeFails" classname="com.jobg.backend.web.rest.UserJWTControllerIntTest" time="0.335"/>
+  <testcase name="testAuthorizeWithRememberMe" classname="com.jobg.backend.web.rest.UserJWTControllerIntTest" time="0.373"/>
+  <testcase name="testAuthorize" classname="com.jobg.backend.web.rest.UserJWTControllerIntTest" time="0.347"/>
+  <system-out><![CDATA[2018-01-06 17:59:07.182  WARN 32460 --- [    Test worker] o.z.p.spring.web.advice.AdviceTrait      : Unauthorized: Bad credentials
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

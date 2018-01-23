@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.web.rest.LogsResourceIntTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:58:39" hostname="TRUNGNQs-MacBook-Air.local" time="0.172">
+  <properties/>
+  <testcase name="changeLogs" classname="com.jobg.backend.web.rest.LogsResourceIntTest" time="0.039"/>
+  <testcase name="getAllLogs" classname="com.jobg.backend.web.rest.LogsResourceIntTest" time="0.09"/>
+  <testcase name="testLogstashAppender" classname="com.jobg.backend.web.rest.LogsResourceIntTest" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

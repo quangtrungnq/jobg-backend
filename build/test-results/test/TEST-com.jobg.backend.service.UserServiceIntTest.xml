@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jobg.backend.service.UserServiceIntTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2018-01-06T10:59:07" hostname="TRUNGNQs-MacBook-Air.local" time="0.305">
+  <properties/>
+  <testcase name="assertThatOnlyActivatedUserCanRequestPasswordReset" classname="com.jobg.backend.service.UserServiceIntTest" time="0.014"/>
+  <testcase name="assertThatUserMustExistToResetPassword" classname="com.jobg.backend.service.UserServiceIntTest" time="0.017"/>
+  <testcase name="assertThatAnonymousUserIsNotGet" classname="com.jobg.backend.service.UserServiceIntTest" time="0.027"/>
+  <testcase name="assertThatResetKeyMustBeValid" classname="com.jobg.backend.service.UserServiceIntTest" time="0.013"/>
+  <testcase name="testRemoveNotActivatedUsers" classname="com.jobg.backend.service.UserServiceIntTest" time="0.039"/>
+  <testcase name="assertThatUserCanResetPassword" classname="com.jobg.backend.service.UserServiceIntTest" time="0.142"/>
+  <testcase name="testFindNotActivatedUsersByCreationDateBefore" classname="com.jobg.backend.service.UserServiceIntTest" time="0.03"/>
+  <testcase name="assertThatResetKeyMustNotBeOlderThan24Hours" classname="com.jobg.backend.service.UserServiceIntTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
